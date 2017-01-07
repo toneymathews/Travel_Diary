@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:dialogTheme">@style/CustomDialog</item>
+    </style>
+
+    <style name="CustomDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.AppCompat.NoActionBar" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TitlesLight" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="TitlesDark" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+
+    <style name="TextDark" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+
+    <style name="TextLight" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="SubMenus" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+
+</resources>
